@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Online Study Website Design </title>
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <script src="https://kit.fontawesome.com/5a728f6414.js" crossorigin="anonymous"></script>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header>
+
+    <section class="flex">
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"></i><i class="fa-solid fa-book-open"></i> </i>E.Learn</a>
+        <div class="search-bar">
+            <input type="text" placeholder="What do you want to learn" id="search-input">
+            <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="dropdown">
+            <select id="course-dropdown">
+                <option value="" disabled selected>Select a Course</option>
+                <option value="#basic-math">Basic Math</option>
+                <option value="#typing-lessons">Typing Lessons</option>
+            </select>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home"> home </a></li>
+                <li><a class="active" href="#about">about</a></li>
+                <li><a class="active" href="#course" style="margin-top: 100px;">course</a></li>
+                <li><a class="active" href="#teacher" style="margin-top: 100px;">teacher</a></li>
+                <li><a href="#contact"style="margin-top: 100px;">contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="login" class="fas fa-user-circle"></div>
+
+    </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form  -->
+
+<div class="login-form">
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" placeholder="username" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+        <input type="submit" class="btn" value="login">
+        <i class="fas fa-times"></i>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<div class="home-container">
+
+    <section class="home" id="home">
+
+        <h1>education from home</h1>
+        <p>Engaging and effective quality education for all
+        </p>
+        <p>Welcome to E.Learn - Your Gateway to Knowledge!
+
+            At E.Learn, we are passionate about providing accessible and engaging education for learners of all ages. Our mission is to empower individuals to acquire new skills, explore their interests, and enhance their knowledge from the comfort of their homes.</p>
+        <a href="#"><button class="btn">get started</button></a>
+        
+    </section>
+
+    <div class="shape"></div>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about m-5" id="about">
+
+  <!-- About page content -->
+    <div class="content">
+        <h3>why choose us?</h3>
+        <p>At E.Learn, we are passionate about providing accessible and engaging education for learners of all ages. Our mission is to empower individuals to acquire new skills, explore their interests, and enhance their knowledge from the comfort of their own homes.
+        </p>
+        <a href="#"><button class="btn">learn more</button></a>
+    </div>
+        <div class="point">
+          <i class="fas fa-book"></i> 
+          <h3>Diverse Course Catalog</h3>
+          <p>We offer a wide range of courses designed to cater to various interests and skill levels. Whether you're looking to improve your math skills, master touch typing, or explore other exciting topics, we have the perfect course for you.</p>
+        </div>
+        <div class="point">
+            <i class="fas fa-lightbulb"></i> <!-- Add the icon class here -->
+            <h3>Interactive Learning</h3>
+            <p>Learning should be engaging! Our courses incorporate interactive elements, quizzes, and hands-on projects to ensure you actively absorb and apply what you've learned.</p>
+        </div>
+        <div class="point">
+          <i class="fas fa-chalkboard-teacher"></i> 
+          <h3>Expert Instructors</h3>
+          <p>Our courses are led by experienced and dedicated instructors who are experts in their respective fields. You'll receive top-quality education and guidance throughout your learning journey.</p>
+        </div>
+      
+</section>
+
+<!-- about section ends -->
+
+<!-- course section starts  -->
+
+<section class="course" id="course">
+
+<h1 class="heading" style="margin-top: 100px;">popular courses</h1>    
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/Basic-Mathematics.jpg" alt="Basic Math Course Image">
+        <div class="content">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <h3 class="title">Course 1: Basic Math</h3>
+          <p>Learn fundamental math concepts and improve your math skills with our Basic Math course.</p>
+          <div class="info">
+            <h3><i class="fas fa-dollar-sign"></i> $39.99</h3>
+            <h3><i class="fas fa-clock"></i> 6 Weeks</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/Typing_classes.png" alt="Typing Lessons Course Image">
+        <div class="content">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <h3 class="title">Course 2: Typing Lessons</h3>
+          <p>Improve your typing speed and accuracy with our Typing Lessons course. Master touch typing techniques.</p>
+          <div class="info">
+            <h3><i class="fas fa-dollar-sign"></i> $29.99</h3>
+            <h3><i class="fas fa-clock"></i> 4 Weeks</h3>
+          </div>
+        </div>
+      </div>
+    <p>More courses to come</p>
+</div>
+
+</section>
+
+<!-- course section ends -->
+<hr class="section-divider">
+<!-- teacher section starts  -->
+<div class="teachers-container">
+    <section class="teacher" id="teacher">
+        <h1 class="heading">expert teachers</h1>
+        <p>At E.Learn, we understand the importance of learning from the best. That's why we've assembled a team of exceptional educators who are experts in their respective fields. Our teachers bring a wealth of knowledge, experience, and a passion for teaching to our online courses. Whether you're mastering math or improving your typing skills, you can trust that our instructors will provide top-quality education and guidance every step of the way. With our expert teachers by your side, you'll have the support you need to achieve your learning goals and excel in your chosen subjects.</p>
+        <div class="center-button">
+            <a href="#"><button class="btn">learn more</button></a>
+        </div>
+    </section>
+</div>
+
+<!-- teacher section ends -->
+
+<!-- contact section starts  -->
+
+<div class="contact-container">
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">contact us</h1>
+        
+        <div class="row">
+        
+            <form action="">
+                <input type="text" placeholder="full name" class="box">
+                <input type="email" placeholder="your email" class="box">
+                <input type="password" placeholder="your password" class="box">
+                <input type="number" placeholder="your number" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your address"></textarea>
+                <input type="submit" class="btn" value="send now">
+            </form>
+        
+            <div class="image">
+                <img src="images/istockphoto-884374384-170667a.jpg" alt="">
+            </div>
+        
+        </div>
+        
+        </section>
+
+</div>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <li><a class="active" href="#home"> home </a></li>
+            <li><a class="active" href="#about">about</a></li>
+            <li><a class="active" href="#course">course</a></li>
+            <li><a class="active" href="#teacher">teacher</a></li>
+            <li><a class="active" href="#contact">contact</a></li>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map-marker-alt"></i> USA </p>
+            <p> <i class="fas fa-envelope"></i> elearn@gmail.com </p>
+            <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+        </div>
+
+
+<!-- footer section ends -->
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
